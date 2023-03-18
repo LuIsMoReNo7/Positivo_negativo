@@ -9,13 +9,13 @@ public class Algoritmo_positivo_negativo {
         System.out.println("Ingrese el numero");
         int num = dato.nextInt();
         if (num > 0){
-            System.out.println("hola : " + nombre + " " + "su numero" + num + " Es positivo! ");
+            System.out.println("hola " + nombre + " " + "su numero" + num + " Es positivo! ");
         }
         else if (num == 0) {
-            System.out.println("hola : " + nombre + " " + "Su numero 0 no es negativo y tampoco es positivo! ");
+            System.out.println("hola " + nombre + " " + "Su numero 0 no es negativo y tampoco es positivo! ");
         }
         else{
-            System.out.println("Hola : " + nombre + " " +  "Su numero " + num + " es negativo! ");
+            System.out.println("Hola " + nombre + " " +  "Su numero " + num + " es negativo! ");
         }
     }
 }
