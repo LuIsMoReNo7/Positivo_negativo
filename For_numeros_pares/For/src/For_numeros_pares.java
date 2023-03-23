@@ -1,16 +1,18 @@
 import java.util.Scanner;
 public class For_numeros_pares {
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
-        System.out.println("Digame su nombre");
-        String nombre = entrada.nextLine();
-        System.out.println("Ingrese su numero");
-        int Ingreso_numero = entrada.nextInt();
-        int suma = 0;
-        for (int numero = 1; numero <= Ingreso_numero ; numero +=2) {
-            suma = suma + numero;
+        //Algoritmo para ingresar datos
+        Scanner dato = new Scanner(System.in);
+        System.out.println("Ingresa el numero a mostrar: ");
+        int n = dato.nextInt();
+        //Parte II
+        int sum=0;
+        int i;       
+        for(i=0;i<=n;i+=2){
+            sum = sum + i;
+            System.out.println("Numeros pares:"+i);    
+            
         }
-        System.out.println("hola " + nombre + " la suma de los numeros pares es: " + suma);
-
-    }
+        System.out.println("La suma es:"+sum); 
+        }
 }
